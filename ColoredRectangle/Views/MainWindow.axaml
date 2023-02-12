@@ -16,16 +16,16 @@
     <Grid Background="LightGray" Height="300" Width="300" ColumnDefinitions="1*,2*" RowDefinitions="Auto">
 		<Rectangle Name="RC" Fill="LightGray" Height="300" Grid.Column="1"></Rectangle>
 		<StackPanel>
-			<Button Command="{Binding OnClickCommand}" Background="Khaki" Width="100" Name="buttonKhaki">Khaki</Button>
-			<Button Command="{Binding OnClickCommand}" Background="Red" Width="100" Name="buttonRed">Red</Button>
-			<Button Command="{Binding OnClickCommand}" Height="30" FontSize="10" Background="MediumVioletRed" Width="100" Name="buttonMediumVioletRed">MediumVioletRed</Button>
-			<Button Command="{Binding OnClickCommand}" Background="Bisque" Width="100" Name="buttonBisque">Bisque</Button>
-			<Button Command="{Binding OnClickCommand}" Background="LemonChiffon" Width="100" Name="buttonLemonChiffon">LemonChiffon</Button>
-			<Button Command="{Binding OnClickCommand}" Background="PowderBlue" Width="100" Name="buttonPowderBlue">PowderBlue</Button>
-			<Button Command="{Binding OnClickCommand}" Background="MintCream" Width="100" Name="buttonMintCream">MintCream</Button>
-			<Button Command="{Binding OnClickCommand}" Background="Maroon" Width="100" Name="buttonMaroon">Maroon</Button>
-			<Button Command="{Binding OnClickCommand}" Background="RosyBrown" Width="100" Name="buttonRosyBrown">RosyBrown</Button>
-			<Button Command="{Binding OnClickCommand}" Background="LightPink" Width="100" Name="buttonLightPink">LightPink</Button>
+			<Button Click="Click_Button" Background="Khaki" Width="100" Name="buttonKhaki">Khaki</Button>
+			<Button Click="Click_Button" Background="Red" Width="100" Name="buttonRed">Red</Button>
+			<Button Click="Click_Button" Height="30" FontSize="10" Background="MediumVioletRed" Width="100" Name="buttonMediumVioletRed">MediumVioletRed</Button>
+			<Button Click="Click_Button" Background="Bisque" Width="100" Name="buttonBisque">Bisque</Button>
+			<Button Click="Click_Button" Background="LemonChiffon" Width="100" Name="buttonLemonChiffon">LemonChiffon</Button>
+			<Button Click="Click_Button" Background="PowderBlue" Width="100" Name="buttonPowderBlue">PowderBlue</Button>
+			<Button Click="Click_Button" Background="MintCream" Width="100" Name="buttonMintCream">MintCream</Button>
+			<Button Click="Click_Button" Background="Maroon" Width="100" Name="buttonMaroon">Maroon</Button>
+			<Button Click="Click_Button" Background="RosyBrown" Width="100" Name="buttonRosyBrown">RosyBrown</Button>
+			<Button Click="Click_Button" Background="LightPink" Width="100" Name="buttonLightPink">LightPink</Button>
 		</StackPanel>
 	</Grid>
 </Window>

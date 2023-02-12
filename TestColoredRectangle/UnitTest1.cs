@@ -22,7 +22,7 @@ namespace TestColoredRectangle
             var rectangle = mainnWindow.GetVisualDescendants().OfType<Rectangle>().First();
             Color c = Colors.Khaki;
 
-            button.ClickMode
+
             
             await Task.Delay(50);
 
