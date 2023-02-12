@@ -16,7 +16,7 @@ namespace ColoredRectangle.Views
         public void Click_Button(object sender, RoutedEventArgs routEventArgs)
         {
         Color[] color_button = new Color[10] { Colors.Khaki, Colors.Red, Colors.MediumVioletRed, Colors.Bisque, Colors.LemonChiffon,
-        Colors.PowderBlue, Colors.MintCream, Colors.Maroon, Colors.RosyBrown, Colors.LightPink,};
+        Colors.PowderBlue, Colors.MintCream, Colors.Maroon, Colors.RosyBrown, Colors.LightPink};
         var button = (sender as Button)!;
             switch (button.Name) 
             {
