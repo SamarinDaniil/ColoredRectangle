@@ -14,21 +14,18 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
     <Grid Background="LightGray" Height="300" Width="300" ColumnDefinitions="1*,2*" RowDefinitions="Auto">
-		<Rectangle Fill="LightGray" Height="300" Grid.Column="1"></Rectangle>
+		<Rectangle Name="RC" Fill="LightGray" Height="300" Grid.Column="1"></Rectangle>
 		<StackPanel>
-			<Button Background="Khaki" Width="100" Name="buttonKhaki" Grid.Column="0">Khaki</Button>
-			<Button Background="Red" Width="100" Name="buttonRed"  Grid.Column="0">Red</Button>
-			<Button Background="MediumVioletRed" Width="100" Name="buttonMediumVioletRed"  Grid.Column="0">MediumVioletRed</Button>
-			<Button Background="Bisque" Width="100" Name="buttonBisque"  Grid.Column="0">Bisque</Button>
-			<Button Background="LemonChiffon" Width="100" Name="buttonLemonChiffon"  Grid.Column="0">LemonChiffon</Button>
-			<Button Background="PowderBlue" Width="100" Name="buttonPowderBlue"  Grid.Column="0">PowderBlue</Button>
-			<Button Background="MintCream" Width="100" Name="buttonMintCream"  Grid.Column="0">MintCream</Button>
-			<Button Background="Maroon" Width="100" Name="buttonMaroon"  Grid.Column="0">Maroon</Button>
-			<Button Background="RosyBrown" Width="100" Name="buttonRosyBrown"  Grid.Column="0">RosyBrown</Button>
-			<Button Background="LightPink" Width="100" Name="buttonLightPink"  Grid.Column="0">LightPink</Button>
+			<Button Command="{Binding OnClickCommand}" Background="Khaki" Width="100" Name="buttonKhaki">Khaki</Button>
+			<Button Command="{Binding OnClickCommand}" Background="Red" Width="100" Name="buttonRed">Red</Button>
+			<Button Command="{Binding OnClickCommand}" Height="30" FontSize="10" Background="MediumVioletRed" Width="100" Name="buttonMediumVioletRed">MediumVioletRed</Button>
+			<Button Command="{Binding OnClickCommand}" Background="Bisque" Width="100" Name="buttonBisque">Bisque</Button>
+			<Button Command="{Binding OnClickCommand}" Background="LemonChiffon" Width="100" Name="buttonLemonChiffon">LemonChiffon</Button>
+			<Button Command="{Binding OnClickCommand}" Background="PowderBlue" Width="100" Name="buttonPowderBlue">PowderBlue</Button>
+			<Button Command="{Binding OnClickCommand}" Background="MintCream" Width="100" Name="buttonMintCream">MintCream</Button>
+			<Button Command="{Binding OnClickCommand}" Background="Maroon" Width="100" Name="buttonMaroon">Maroon</Button>
+			<Button Command="{Binding OnClickCommand}" Background="RosyBrown" Width="100" Name="buttonRosyBrown">RosyBrown</Button>
+			<Button Command="{Binding OnClickCommand}" Background="LightPink" Width="100" Name="buttonLightPink">LightPink</Button>
 		</StackPanel>
 	</Grid>
-
-    
-
 </Window>

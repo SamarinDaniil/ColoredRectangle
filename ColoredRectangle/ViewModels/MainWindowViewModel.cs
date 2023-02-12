@@ -1,3 +1,4 @@
+using ReactiveUI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,6 +8,6 @@ namespace ColoredRectangle.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
-        
+
     }
 }

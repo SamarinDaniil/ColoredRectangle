@@ -7,5 +7,6 @@ namespace ColoredRectangle.ViewModels
 {
     public class ViewModelBase : ReactiveObject
     {
+
     }
 }
